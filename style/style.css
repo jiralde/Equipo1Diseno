@@ -1,0 +1,36 @@
+/*
+Comentarios en CSS
+*/
+*    {
+    margin: 0;
+    padding: 0;
+}
+.ClaseCentrada  {
+    text-align: center;
+}
+/*
+    Header
+*/
+
+header  {
+    background-color: #020202;
+    color: aliceblue;
+}
+
+/*
+    Main
+*/
+
+main    {
+    background-color: #282A35;
+    color: aliceblue;
+}
+
+/*
+    Footer
+*/
+
+footer  {
+    background-color: #020202;
+    color: aliceblue;
+}
