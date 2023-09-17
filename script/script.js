@@ -1,4 +1,1 @@
-/*
-Comentarios en JS
-let opcion = prompt("::")
-*/
+alert("Hola :)");

@@ -34,3 +34,20 @@ footer  {
     background-color: #020202;
     color: aliceblue;
 }
+
+
+/*line de header fixed, table, th, td, textTabla echa por giovanni */
+.HeaderFixed{
+    position: fixed;
+    height: 200%;
+    width: 100%;
+}
+
+table, th, td {
+    border:3px solid rgb(72, 65, 163);
+  }
+
+  .TextoTabla{
+    color: rgb(10, 16, 19);
+}
+
