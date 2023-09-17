@@ -1,9 +1,11 @@
 /*
 Comentarios en CSS
 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *    {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 .ClaseCentrada  {
     text-align: center;
@@ -33,6 +35,15 @@ main    {
 footer  {
     background-color: #020202;
     color: aliceblue;
+    margin: 0 auto;
+}
+.AFooter    {
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.imgfoot {
+    width: 50px;
+    height: 50px;
 }
 
 
