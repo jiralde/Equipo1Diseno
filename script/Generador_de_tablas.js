@@ -1,4 +1,11 @@
-class tabla{
+const z = '<input type="text">'
+document.write(z)
+
+
+
+
+
+/*class tabla{
     constructor(tabla){
         let tab = tabla
     } 
@@ -24,8 +31,9 @@ if(opcion == "+1"){
                             </tr>
                         </table>`
     )
-    /*palabra = new palabra(`<input type="text">`)*/
+    /*palabra = new palabra(`<input type="text">`)
     document.write(tabla);
 } else{
     alert(":(");
 }
+*/
