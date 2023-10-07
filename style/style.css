@@ -55,7 +55,8 @@ footer  {
 }
 
 table, th, td {
-    border:3px solid rgb(72, 65, 163);
+    border:2px solid rgb(72, 65, 163);
+    border-collapse: collapse;
   }
 
   .TextoTabla{

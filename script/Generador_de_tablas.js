@@ -1,14 +1,36 @@
-const tab = `<table style="width:100%" class="TextoBlanco">
-                <tr>
-                    <th>Palabra</th>
-                    <th>Definicion</th>
-                    <th>Ejemplo</th>
-                </tr>
-            </table>`
-document.write(tab);
+function generadorDeFilas(){
+    const fila =+ `<tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>`
+    document.write(tabla)                      
+}
 
-<button onclick="functionAEjecutar()">Click</button>
+const fila = `
+`;
 
 
- 
+const tabla = `<table>
+                    <tr>
+                        <th>Lenguaje</th>
+                        <th>Funcion</th>
+                        <th>Definicion</th>
+                        <th>Ejemplo</th>
+                    </tr>
+                   
+                    ${fila}
 
+                </table>`;
+document.write(tabla);
+
+
+
+/*<tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+</tr>
+*/
