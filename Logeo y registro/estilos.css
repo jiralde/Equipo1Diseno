@@ -25,7 +25,7 @@ h1{
     color: #000000;
     font-size: 40px;
 }
-input[type="text"],
+input[type="email"],
 input[type="password"]{
     font-size: 20px;
     width: 82%;
