@@ -1,39 +1,18 @@
-const z = '<input type="text">'
-document.write(z)
-
-
-
-
-
-/*class tabla{
-    constructor(tabla){
-        let tab = tabla
-    } 
-}
-
-
-class filas{
-    constructor(Palabra,Definicion,Ejemplo){
-        const Palabra = Palabra;
-        const Definicion = Definicion;
-        const Ejemplo = Ejemplo;
+const agregarFila = () => {
+    document.getElementById('tablaprueba').insertRow(-1).innerHTML = '<td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td>';
+  }
+  
+  const eliminarFila = () => {
+    const table = document.getElementById('tablaprueba');
+    const rowCount = table.rows.length;
+    
+    if (rowCount <= 1){
+      alert('No se puede eliminar el encabezado');
+    }else{
+      table.deleteRow(rowCount -1);
     }
 }
- 
 
-let opcion = prompt("+1 para generar tabla +0 para no generar nada")
-if(opcion == "+1"){
-    tab = new tabla(`<table style="width:100%" class="TextoBlanco">
-                            <tr>
-                                <th>Palabra</th>
-                                <th>Definicion</th>
-                                <th>Ejemplo</th>
-                            </tr>
-                        </table>`
-    )
-    /*palabra = new palabra(`<input type="text">`)
-    document.write(tabla);
-} else{
-    alert(":(");
+const guardarT = () => {
+    document.write(table)
 }
-*/
