@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="script/Generador_de_tablas.js"></script>
+    
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <table class="table" id="tablaprueba">
+      <thead class="thead-dark">
+        <tr>
+          <th>ID</th>
+          <th>Nombres</th>
+          <th>Definicion</th>
+          <th>lenguaje</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="form-group">
+      <button type="button" class="btn btn-primary mr-2" onclick="agregarFila()">Agregar Fila</button>
+      <button type="button" class="btn btn-danger" onclick="eliminarFila()">Eliminar Fila</button>
+      <button onclick="guardarT()">guardar</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
