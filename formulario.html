@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet">
     <title>Interfaz de Usuario MySQL</title>
 </head>
 <body>
     <h2>Formulario de Inserción de Datos</h2>
     <form id="dataForm">
-        <input type="text" id="nombre" placeholder="Nombre" required>
-        <input type="text" id="correo" placeholder="Correo" required>
+        <input type="text" id="ID" placeholder="ID" required>
+        <input type="text" id="Palabra Reservada" placeholder="Palabra Reservada" required>
+        <input type="text" id="Definicion" placeholder="Definicion" required>
+        <input type="text" id="Lenguaje" placeholder="Lenguaje" required>
         <button type="submit">Agregar Datos</button>
     </form>
 
@@ -18,8 +22,10 @@
     <table id="dataTable">
         <thead>
             <tr>
-                <th>Nombre</th>
-                <th>Correo</th>
+                <th>ID</th>
+                <th>Palabra Reservada</th>
+                <th>Definicion</th>
+                <th>Lenguaje</th>
             </tr>
         </thead>
         <tbody>

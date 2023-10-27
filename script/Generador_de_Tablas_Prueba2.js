@@ -1,3 +1,7 @@
+const agregarFila = () => {
+    document.getElementById('dataForm').insertRow(-1).innerHTML = '<td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td>';
+  }
+
 document.addEventListener('DOMContentLoaded', function() {
     const dataForm = document.getElementById('dataForm');
     const dataTable = document.getElementById('dataTable');
@@ -17,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(data => {
             // Manejar la respuesta (puede incluir la actualización de la tabla)
-            // ...
         });
     });
 
