@@ -14,5 +14,9 @@ const agregarFila = () => {
 }
 
 const guardarT = () => {
-    document.write(document.getElementById('tablaprueba'))
+    document.write(document.getElementById('tablaprueba'));
+}
+
+const hola = () => {
+  alert('hola :)');
 }
