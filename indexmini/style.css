@@ -10,7 +10,7 @@ header {
     position: relative;
     height: 65px;
     backdrop-filter: blur(8px);
-    background: rgba(33, 81, 255, 0.293);
+    background: rgba(80, 80, 80, 0.293);
     margin: 0;
     padding: 20px;
     text-align: center;
@@ -34,10 +34,11 @@ ul {
 li {
     position: relative;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 22px;
 }
 
 a {
+    
     position: relative;
     text-decoration: none;
     color: #fff;
@@ -64,30 +65,3 @@ a:hover {
     color: rgb(92, 90, 90); 
 }
 
-.imgpython {
-    position: relative;
-    width: 160px;
-    top:-22px;
-    left: 120px;
-}
-
-.imghtml {
-    position: relative;
-    width: 110px;
-    top:-22px;
-    left: 120px;
-}
-
-.imgcss {
-    position: relative;
-    width: 88px;
-    top:-30px;
-    left: 120px;
-}
-
-.imgjs{
-    position: relative;
-    width: 105px;
-    top:-26px;
-    left: 120px;
-}
