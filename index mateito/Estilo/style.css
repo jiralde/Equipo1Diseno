@@ -1,8 +1,14 @@
-body {
+.colorbody {
     background-color: #282A35;
     margin: 0;
     padding: 0;
 }
+
+.h2class{
+    color: white;
+
+}
+
 header {
     border: none;
     height: 150px;
@@ -23,7 +29,7 @@ h1 {
     width: 90px ;
     height: 90px;
 }
-button {
+.button_position {
     position: relative;
     top: -105px;
     left: 340px;
